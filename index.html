@@ -1,19 +1,91 @@
 <!DOCTYPE html>
-<!-- TODO: add lang attribute to the html element -->
-<html>
+<html lang="en">
 <head>
-  <!-- TODO: add charset meta and a <title> -->
+  <meta charset="UTF-8">
+  <title>Alhasan Ali // Home</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f4f4f4;
+      font-family: monospace, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.5;
+    }
+    header, nav, main, footer {
+      border: 2px solid #f4f4f4;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      background-color: #1a1a1a;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0 0 0.5rem 0;
+      text-transform: uppercase;
+      letter-spacing: -2px;
+      color: #ff3333;
+    }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 2px solid #f4f4f4;
+      padding-bottom: 0.3rem;
+      text-transform: uppercase;
+    }
+    nav a, footer a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 1.5rem;
+    }
+    nav a:hover, footer a:hover {
+      background-color: #00ffff;
+      color: #0d0d0d;
+      padding: 0.2rem;
+    }
+    img {
+      max-width: 250px;
+      border: 4px solid #ff3333;
+      filter: grayscale(100%);
+    }
+    ul, ol {
+      background: #111;
+      padding: 1rem 1rem 1rem 2rem;
+      border-left: 4px solid #ff3333;
+    }
+  </style>
 </head>
 <body>
-  <!--
-    ITCS333 A1 starter. Replace this comment with your profile page.
-    Requirements (see README rubric):
-      - semantic elements: header, nav, main, footer
-      - h1 then h2 heading hierarchy
-      - a link to about.html and one external link
-      - an image with alt text (put the file in assets/)
-      - one ordered list and one unordered list (across both pages)
-  -->
-  <p>TODO: build your profile page here.</p>
+
+  <header>
+    <h1>3rd year & I don't know what I'm doing</h1>
+    <p>My name is Alhasan, I'm in my third year studying Computer Science at the University of Bahrain, and I have no idea what I'm doing. <em>My core interests are playing the piano, mathematics, physics, and solving complex coding or computing problems in simple bite sized ways.</em></p>
+  </header>
+
+  <nav>
+    <h2>Navigation</h2>
+    <a href="index.html">[Home]</a>
+    <a href="about.html">[About Me]</a>
+    <a href="https://github.com/tjl5" target="_blank">[GitHub External]</a>
+  </nav>
+
+  <main>
+    <h2>Profile & Visuals</h2>
+    <p>Welcome to the digital workspace. Raw layouts, zero corporate minimalism.</p>
+    <img src="assets/profile.jpg" alt="Alhasan Ali portrait placeholder">
+
+    <h2>Core Creative & Academic Focus</h2>
+    <ul>
+      <li>Multidisciplinary creative direction & video editing (A3 / HSN brand).</li>
+      <li>Systems logic, algorithms, and 3rd-year computer science coursework.</li>
+      <li>Experimental audio-visualizers and interface design.</li>
+    </ul>
+  </main>
+
+  <footer>
+    <h2>System Links</h2>
+    <p>Connect: <a href="https://instagram.com/notlinguid" target="_blank">Instagram (@notlinguid)</a></p>
+    <p>&copy; 2026 Alhasan Ali.</p>
+  </footer>
+
 </body>
 </html>
